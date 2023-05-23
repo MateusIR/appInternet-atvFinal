@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300&display=swap');
+
+:root{
+--vermelho: #AA5656;
+--verde: #698269;
+--preto: #1E1E1E;
+--bege-claro: #F1DBBF;
+--bege: #B99B6B;
+--brancos: #F1F1F1;
+}
+
+.body{
+    background-color: var(--brancos);
+    font-family: Montserrat;
+}
+
+
+.header_organizacao{
+background-color: var(--vermelho);
+height: 10rem;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-bottom: 1rem;
+}
+.logo_header{
+width: 15rem;
+
+}
+.links_header_organizacao{
+    background-color: var(--verde);
+    width: 25rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Krona One;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+.links_header{
+    text-decoration: none;
+    color: var(--brancos);
+    transition: color 250ms;
+}
+.links_header:hover{
+    color: var(--vermelho);
+}
+.links_header:active{
+  /* a decidir */
+    
+}
+.icons_header{
+    width:60px ;
+}
+
+
+
+.footer{
+    display: flex;
+    height: 15rem;
+  padding-left: 1rem ;
+  padding-right: 1rem ;
+  gap: 2rem;
+  background-color: var(--bege-claro);
+  font-family: montserrat;
+  font-weight: 600;
+  color: var(--bege);
+  justify-content: space-around;
+  
+  
+  }
+  
+  .footer_conteudo{
+  background-color: var(--bege-claro);
+ row-gap: 1rem;
+ padding-top: 3rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  
+  }
+  .footer_conteudo_titulos{
+    font-family: Krona One;
+    color: var(--vermelho);
+  }
+  .footer_links{
+      text-decoration: none;
+      color: var(--bege);
+  }
+  .footer_links:hover{
+  color: var(--vermelho);
+  }
+  
+  .rodape{
+      background-color: var(--bege-claro);
+      padding-top: 2rem;
+      display: flex;
+      height: 4rem;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 0.5rem;
+      font-family: Krona One;
+      font-weight: 600;
+      color: var(--bege);
+  }
+
