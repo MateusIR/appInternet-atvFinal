@@ -87,7 +87,7 @@ transition: 400ms;
 .banner_index_img{
     margin: 3rem;
     border-radius: 1rem;
-    width: 85rem
+    width: 90%;
     
     
 }
@@ -258,9 +258,9 @@ column-gap: 5rem;
     justify-content: center;
     margin-top: 6rem;
     column-gap: 3rem;
-    margin-left: 1rem ;
+    margin-left: 2rem ;
     margin-right: 1rem ;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 .nome_eq{
 font-family: Krona One;
@@ -281,7 +281,7 @@ row-gap: 1rem;
 }
 .foto_eq{
     width: 10rem;
-    
+    margin-right: 1rem;
     border-radius: 8px;
 }
 .decricao_eq{
@@ -292,7 +292,7 @@ flex-direction: column;
 justify-content: center;
 margin-left: 1rem ;
     margin-right: 1rem ;
-    margin-bottom: rem;
+    margin-bottom: 2rem;
     padding: 1rem;
 
 }
@@ -439,6 +439,7 @@ justify-content: center;
   }
   .imgPgProduto{
     max-width: 30rem;
+    border-radius: 10px;
     
   }
   .organizacaoTxtProduto{
